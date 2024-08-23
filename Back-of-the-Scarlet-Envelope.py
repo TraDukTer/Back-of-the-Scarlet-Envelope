@@ -5,6 +5,15 @@ class Methuselah:
         self.worth2020 = worth2020
         self.income2021 = self.worth2021 - self.worth2020
 
+class Worth:
+    def __init__(self, year, worth):
+        self.year = year
+        self.worth = worth
+
+#class income? year, amount?
+#method calculateincome? year1 year2 return income?
+#method calculatemaxincome?  methuselah start end?
+
 jeff_bezos = Methuselah ("Jeff Bezos", 177000000000, 113000000000)
 
 def investment_iterate(initial, monthly, profit, target):
