@@ -14,6 +14,8 @@ class Worth:
 #method calculateincome? year1 year2 return income?
 #method calculatemaxincome?  methuselah start end?
 
+#method generatetext?
+
 jeff_bezos = Methuselah ("Jeff Bezos", 177000000000, 113000000000)
 
 def investment_iterate(initial, monthly, profit, target):
